@@ -2,7 +2,7 @@ import axios from "axios";
 
 const api = axios.create({
   //baseURL: "https://localhost:5001/api", // your ChefBot API
-  baseURL: "https://a0fe95feef8b.ngrok-free.app/api",
+  baseURL: "https://03353736e7bd.ngrok-free.app/api",
   headers: { "Content-Type": "application/json",  "ngrok-skip-browser-warning": "true" },
   
 });
